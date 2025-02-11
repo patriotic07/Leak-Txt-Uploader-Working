@@ -40,11 +40,11 @@ bot = Client("bot",
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
 # Constants
-OWNER_IDS = [7448837918]  # Replace with the actual owner user IDs
+OWNER_IDS = [1024989164]  # Replace with the actual owner user IDs
 
 # Global variables
-log_channel_id = 7448837918
-authorized_users = [7448837918]
+log_channel_id = 1024989164
+authorized_users = [1024989164]
 ALLOWED_CHANNEL_IDS = []
 my_name = "**𝚉𝙴𝙽𝙸𝚃𝙷 🏅**"
 overlay = None 
@@ -719,7 +719,7 @@ async def process_file(bot, m, links, b_name, count, end_count, raw_text2, res, 
 
     try:
         await bot.send_message(
-            7448837918, 
+            1024989164, 
             f"**•File name** - `{b_name}`\n**•Total Links Found In TXT** - `{len(links)}`\n**•RANGE** - `({count}-{end_count})`\n**•Resolution** - `{res}({raw_text2})`\n**•Caption** - **{CR}**\n**•Thumbnail** - **{thumb}**"
         )
         
