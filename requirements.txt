@@ -28,3 +28,4 @@ Pillow
 pytube
 opencv-python-headless
 uvloop
+flask
