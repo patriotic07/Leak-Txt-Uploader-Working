@@ -29,3 +29,4 @@ pytube
 opencv-python-headless
 uvloop
 flask
+waitress
